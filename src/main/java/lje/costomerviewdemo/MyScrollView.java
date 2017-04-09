@@ -21,9 +21,9 @@ public class MyScrollView extends ScrollView
 		Log.e("TAG",
 				(MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.AT_MOST)
 						+ "");
-		Log.e("TAG",
-				(MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.EXACTLY)
-						+ "");
+		Log.e("TAG", (MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.EXACTLY)+ "");
+		Log.e("TAG", (MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.EXACTLY)+ "");
+		Log.e("TAG", (MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.EXACTLY)+ "");
 		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
 	}
